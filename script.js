@@ -1,9 +1,8 @@
-$("#buttons").on("click", function( e ) {
-    
+$("a").click(function(e) {
     e.preventDefault();
+    var target = $(this).attr('href');   
+    $('html, body').animate({ scrollTop : $(target).offset().top + "px"});
+    console.log(target);
 
-    $("body").animate({ 
-        scrollTop: $( $(this).attr('href') ).offset().top 
-    }, 600);
-    
+
 });

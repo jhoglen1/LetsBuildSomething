@@ -125,6 +125,7 @@ nav {
   display: inline-flex;
   justify-content: space-between;
   width: 100vw;
+  position: fixed;
 }
 
 .logo h4 {
