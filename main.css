@@ -126,6 +126,7 @@ nav {
   justify-content: space-between;
   width: 100vw;
   position: fixed;
+  background-color: white;
 }
 
 .logo h4 {
