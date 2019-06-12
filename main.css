@@ -148,7 +148,10 @@ nav {
   padding: 0 0 6px 0;
   
 }
+
+
 a{
+  color:blue;
   text-decoration: none;
 }
 a:visited {
@@ -270,6 +273,8 @@ footer{
   .nav-ul {
     display: inline-flex;
   }
+
+  
 
   li {
     padding-left: 36px;
