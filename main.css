@@ -127,6 +127,7 @@ nav {
   width: 100vw;
   position: fixed;
   background-color: white;
+ 
 }
 
 .logo h4 {
@@ -137,6 +138,7 @@ nav {
 
 .nav-ul {
   padding: 4vh 4vw;
+ 
 }
 
  li {
@@ -144,9 +146,14 @@ nav {
   font-size: 14px;
   list-style-type: none;
   padding: 0 0 6px 0;
+  
 }
-
-
+a{
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
 /**** Hero Section ****/
 
 .hero {
@@ -238,9 +245,19 @@ nav {
   margin: 10vh 0;
 }
 
+.contact-me {
+  padding: 2vh 4vw;
+  background-color:white;
+}
+
+.contact-me p {
+  padding: 2vh 0 4vh 0;
+}
+
 
 footer{
   text-align: center;
+  background-color: #f7f7f7;
 }
 
 @media only screen and (min-width: 768px) {
@@ -394,5 +411,38 @@ footer{
     padding: 4vh 4vh;
     margin-bottom: 2vh;
     margin-left: 4vw;
+  }
+
+  .contact-me {
+    display: grid;
+    width: 50vw;
+    grid-column: 1 / 2;
+    grid-row: 2;
+    margin: 0 auto;
+    
+  }
+
+  .contact-me-headline {
+    width: 50vw;
+    padding: 2vh 2vw;
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+
+  .contact-me p {
+    padding: 0 0 4vh 0;
+    width: 48vw;
+    font-size: 1.25em;
+  }
+
+  .contact-me h4 {
+    font-size: 1em;
+  }
+
+  .contact-me-content {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0 2vw;
   }
 }
