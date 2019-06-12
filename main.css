@@ -238,8 +238,12 @@ a:visited {
   width: 18px;
   padding: 2vh 0;
 }
-
-
+.indent{
+  text-indent: 55px;
+}
+.photos{
+  margin-left: 55px;
+}
 .project-2 {
   background-color: #f7f7f7;
 }
@@ -363,6 +367,7 @@ footer{
     grid-column: 1 / 2;
     grid-row: 1;
     align-self: center;
+    margin-left:40px;
   }
 
   .project-content {
@@ -371,6 +376,7 @@ footer{
     width: 35vw;
     align-self: center;
     z-index: 1000;
+    margin-left:40px;
   }
 
   .project-content h4, .project-content h5, .technology-used {
@@ -416,6 +422,7 @@ footer{
     padding: 4vh 4vh;
     margin-bottom: 2vh;
     margin-left: 4vw;
+  
   }
 
   .contact-me {
