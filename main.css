@@ -154,13 +154,15 @@ a{
   color:blue;
   text-decoration: none;
 }
-a:visited {
-  color: blue;
+
+a:hover{
+  color:#00856f;
 }
 /**** Hero Section ****/
 
 .hero {
   padding: 0 4vw 15vh 4vw;
+  
 }
 
 .hero h2 {
@@ -267,6 +269,11 @@ footer{
   text-align: center;
   background-color: #f7f7f7;
 }
+@media only screen and (max-width: 767px){
+  .hero{
+    margin-top:150px
+  }
+}
 
 @media only screen and (min-width: 768px) {
 
@@ -279,7 +286,7 @@ footer{
     display: inline-flex;
   }
 
-  
+ 
 
   li {
     padding-left: 36px;
@@ -290,6 +297,7 @@ footer{
     width: 90vw;
     grid-column: 1 / 2;
     grid-row: 1;
+    
   }
 
   .hero-container h2 {
