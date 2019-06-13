@@ -245,11 +245,12 @@ a:visited {
   margin-left: 55px;
 }
 .project-2 {
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
 }
 
 .project-1 {
   margin: 10vh 0;
+  background-color: #f2f2f2;;
 }
 
 .contact-me {
@@ -361,6 +362,7 @@ footer{
 
   .mockup-image img {
     width: 50vw;
+    height: 24vw;
   }
 
   .mockup-image {
@@ -400,6 +402,7 @@ footer{
 
   .mockup-image-2 img {
     width: 50vw;
+    height: 24vw;
   }
 
   .mockup-image-2 {
