@@ -241,7 +241,7 @@ a:hover{
   padding: 2vh 0;
 }
 .indent{
-  text-indent: 55px;
+  margin-left: 55px;
 }
 .photos{
   margin-left: 55px;
@@ -272,6 +272,13 @@ footer{
 @media only screen and (max-width: 767px){
   .hero{
     margin-top:150px
+  }
+  .indent{
+  margin-left: 0px;
+  }
+  .technology-used li{
+    padding: 0 6px 0 0;
+    font-size: 12px;
   }
 }
 
