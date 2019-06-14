@@ -1,8 +1,20 @@
-$("About,Project,Contact").click(function(e) {
+$( ".about" ).click(function(e) {
     e.preventDefault();
-    var target = $(this).attr('href');   
-    $('html, body').animate({ scrollTop : $(target).offset().top + "px"});
-    console.log(target);
+    $('html, body').animate({
+        scrollTop: $('#About').offset().top
+    }, 1000);
+}); 
 
+$( ".projects" ).click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('#Projects').offset().top
+    }, 1000);
+}); 
 
-});
+$( ".contact" ).click(function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: $('#Contact').offset().top
+    }, 1000);
+}); 

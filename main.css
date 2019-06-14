@@ -127,7 +127,7 @@ nav {
   width: 100vw;
   position: fixed;
   background-color: white;
- 
+ z-index: 1001;
 }
 
 .logo h4 {
@@ -263,12 +263,27 @@ a:hover{
 .contact-me p {
   padding: 2vh 0 4vh 0;
 }
+#contact-links{
+  width: 150px;
+  margin: 0 auto;
+}
+#contact-links li{
+  padding: 0;
+}
+.contact-links-ul{
+  display: inline-flex;
+}
 
-
-footer{
-  text-align: center;
+ footer{
+ 
   background-color: #f7f7f7;
 }
+.foots{
+  display: inline-flex;
+  width: 96vw;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 767px){
   .hero{
     margin-top:150px
@@ -474,5 +489,15 @@ footer{
     grid-column: 1;
     grid-row: 2;
     padding: 0 2vw;
+  }
+  #contact-links{
+    width: 100px;
+    margin: 0 auto;
+  }
+  #contact-links li{
+    padding: 0;
+  }
+  .contact-links-ul{
+    display: inline-flex;
   }
 }
