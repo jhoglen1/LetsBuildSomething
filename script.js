@@ -9,7 +9,7 @@ $( ".projects" ).click(function(e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $('#Projects').offset().top
-    }, 1250);
+    }, 1550);
 }); 
 
 $( ".contact" ).click(function(e) {
