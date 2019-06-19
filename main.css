@@ -151,7 +151,7 @@ nav {
 
 
 a{
-  color:blue;
+  color: #007bbd;
   text-decoration: none;
 }
 
@@ -413,6 +413,12 @@ a:hover{
 
   .project-content h4, .project-content h5, .technology-used {
     padding: 0;
+    
+   
+  }
+  .tour{
+    margin-bottom: 12px;
+    margin-top: 2.5px;
   }
 
   .technology-used img {
