@@ -206,6 +206,7 @@ a:hover{
   width: 12px;
 }
 
+
 /**** Work Section ****/
 
 
@@ -413,6 +414,7 @@ a:hover{
 
   .project-content h4, .project-content h5, .technology-used {
     padding: 0;
+    margin-bottom: 10px;
     
    
   }
